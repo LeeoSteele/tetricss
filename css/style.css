@@ -222,3 +222,8 @@ body {
     clear: both;
     margin-left: 40px;
 }
+
+.i-block, .j-block, .l-block, .o-block, .s-block,.t-block, .z-block {
+
+    display:none;
+}

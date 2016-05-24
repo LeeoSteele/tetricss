@@ -11,6 +11,7 @@
 	<script type="text/javascript" src="lib/vendor/js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/object-definitions-tetrinomino.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="server/ScoreClient.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
 		</div>
 
 		<div class="game-board">
-			<div id = "buttons"> <button id = "startButton"><img src = "http://greedcardgame.com/scoreboard_images/start_game_button.png" height ="25" width="50"> </button>
+			<div id = "buttons"> <button onclick = "startGame()" id = "startButton"><img src = "http://greedcardgame.com/scoreboard_images/start_game_button.png" height ="25" width="50"> </button>
 
 			</div>
 			<div class="tetromino i-block freefall">
@@ -52,9 +53,9 @@
 		</div>
 
 		<div class="next-up">
-			<div id = "buttons"> <button id = "startButton"></button>
+			
 
-			</div>
+	
 			
 		</div>
 	</div>
